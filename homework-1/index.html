@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First homework</title>
+</head>
+<body>
+    <h1>GIT-шпаргалка</h1>
+    <h2>Base</h2>
+    <ul>
+        <li>
+            git config --global user.name - створення імені користувача
+        </li>
+        <li>
+            git config --global user.email - створення пошти користувача
+        </li>
+        <li>
+            git init - створення git-репозиторію
+        </li>
+        <li>
+            git status - перелік змінених файлів, або тих, які потребують допрацювань
+        </li>
+        <li>
+            git add . - внесення усіх файлів у коміт
+        </li>
+        <li>
+            git commit -m "Повідомлення, яке описує комміт"- коментуємо, які зміни внесли і робимо "зліпок", зберігаємо поточну версію
+        </li>
+        <li>
+            git log - історія змін файлів
+        </li>
+        <li>
+            git checkout --<назва файлу> - відміна зміни файлу
+        </li>
+        <li>
+                git branch - список наявних гілок
+        </li>
+        <li>
+                git push - внесення у віддалений репозиторій змін, "зліпків" проекту з локального репозиторію
+        </li>
+        <li>
+                git merge - злиття двох гілок
+        </li>
+        <li>
+                git clone - копія репозиторію
+        </li>
+        <li>
+            <h3>.gitignore файл - це файл, який дозволяє не додавати у репозиторій "зайву" інформацію шляхом її ігнорування
+            </li></h3>
+        </li>
+    </ul>
+    <h2>Advanced</h2>
+    <ul>
+        <li>
+            git revert - відміняє коміт (повертає видалені дані або видаляє нові)
+        </li>
+        <li>
+            git reset - знищує усі зміни після заданого коміту
+        </li>
+        <li>
+            git rebase - злиття двох гілок з видаленням історії змін непотрібної більше гілки
+        </li>
+        <li>
+            git cherry-pick - вирізає окремі коміти з одного місця в репозиторії і вставляє їх у друге
+        </li>
+        <li>
+            git stash - дозволяє архівувати зміни, які можна буде використати пізніше
+        </li>
+    </ul>
+    <img src="key_ssh.png" alt="key">
+</body>
+</html>
