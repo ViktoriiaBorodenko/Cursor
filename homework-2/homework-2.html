@@ -8,5 +8,84 @@
 </head>
 <body>
     <script src=".homework-2.js"></script>
+    <title> тег table </title>
+    </head>
+    
+    <body>
+        <div>
+        <table border="1" width="50%" cellpadding="5">
+            <tr>
+                <th> Ім'я </th>
+                <th> Прізвище </th>
+                <th> Телефон </th>
+                <th> E-mail </th>
+                
+            </tr>
+            <tr>
+                <td> Орест </td>
+                <td> Пікачу </td>
+                <td> 380111111111 </td>
+                <td> opik@gmail.com </td>
+            </tr>
+            <tr>
+               <td> Лариса </td>
+                <td> Косач-Квітка </td>
+                <td> 380222222222 </td>
+                <td> lesyk@gmail.com </td>
+            </tr>
+            <tr>
+                <td> Дід </td>
+                <td> Пихто </td>
+                <td> 380333333333 </td>
+                <td> notyourbaby@gmail.com </td>
+            </tr>
+        </table>
+         </div>
+       <div>
+           <p>
+            <form action="/login" method="post">
+            <input type="text" name="username" placeholder="Введіть Ваше ім'я" maxlength="25" size="40">
+        </form>
+        </p>
+        <p>
+        <form action="/login" method="post">
+            <input type="text" name="username" placeholder="Введіть Ваше прізвище" maxlength="25" size="40">
+        </form>
+        </p>
+        <div>
+            <form action="handler.php">
+                <p><b>Вкажіть Вашу стать:</b></p>
+                <p><input name="male" type="radio" value="female"> чоловіча</p>
+                <p><input name="male" type="radio" value="male"> жіноча</p> 
+            </form>
+        </div>
+        </div>
+        <div>
+            <form action="comment.php" method="post">
+                <p><textarea required placeholder="Запитайте нас"  name="comment"></textarea></p>
+            </form>
+        </div>
+        <div>
+        <form>
+            <p><strong>Введіть Ваше місто...</strong></p>
+            <p><input name="city" list="city"></p>
+        </form>
+        <datalist id="city">
+            <option>Київ</option>
+            <option>Тараканів</option>
+            <option>Ужгород</option>
+            <option>Здолбунів</option>
+            <option>Вінниця</option>
+            <option value= "Київська Русь" disabled>Київська Русь</option> 
+            </div>
+            <div>
+                <form action="handler.php">
+                    <p><strong>Оберіть мову:</strong></p>
+                    <p><input type="checkbox" name="a" value="українська" checked> українська</p>
+                    <p><input type="checkbox" name="a" value="english" checked> english</p>
+                    <p><input type="checkbox" name="a" value="esperanto" checked> esperanto</p>
+                    <p><input type="submit" value="Відправити"></p>
+                </form>
+            </div>
 </body>
 </html>
