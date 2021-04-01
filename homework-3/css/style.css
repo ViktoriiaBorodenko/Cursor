@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(46, 42, 42);
+  font-family: Montserrat;
+  color: beige;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  cursor: zoom-in;
+}
+
+table {
+  background-color: rgb(46, 42, 42);
+  border-color: honeydew;
+  margin: 30px;
+  border-collapse: collapse;
+  width: 70%;
+}
+.column-1 {
+  border-right: none;
+}
+.column-2 {
+  color: grey;
+  width: 25%;
+  border-left: none;
+  border-right: none;
+}
+.column-3 {
+  text-align: right;
+  width: 25%;
+  border-left: none;
+}
+.column-3-1t {
+  text-align: right;
+  color: grey;
+  width: 25%;
+  border-left: none;
+}
+.form-search {
+  text-align: right;
+  color: grey;
+}
+.col-date {
+  border-left: none;
+  border-right: none;
+  color: beige;
+  width: 25%;
+}
+.col-name {
+  border-right: none;
+  color: beige;
+  width: 25%;
+}
