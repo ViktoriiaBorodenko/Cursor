@@ -1,0 +1,337 @@
+body {
+  width: 1100;
+  height: 600;
+}
+aside {
+  display: inline-block;
+  width: auto;
+  margin-left: 10px;
+}
+ul {
+  padding: 0;
+}
+main {
+  display: inline-block;
+  width: 70%;
+}
+.nav {
+  position: absolute;
+  width: 132px;
+  height: 852px;
+  left: 32.34px;
+  top: 24.02px;
+  background: #000000;
+  border-radius: 24px;
+}
+.F {
+  position: absolute;
+  width: 47px;
+  height: 102px;
+  /*left: 74.46px;*/
+  top: 39.67px;
+}
+.home {
+  position: absolute;
+  /*left: 5.93%;*/
+  /*right: 92.27%;*/
+  top: 22.89%;
+  bottom: 74.22%;
+}
+.vector {
+  position: absolute;
+  /*left: 5.86%;*/
+  /*right: 92.2%;*/
+  top: 32.84%;
+  bottom: 64.69%;
+}
+.group6 {
+  position: absolute;
+  width: 22.89px;
+  height: 26.04px;
+  /*left: 86.9px;*/
+  top: 382.1px;
+}
+.group3 {
+  position: absolute;
+  width: 25.94px;
+  height: 22.81px;
+  /*left: 85.19px;*/
+  top: 471.99px;
+}
+.group2 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  /*left: 85.15px;*/
+  top: 558.98px;
+}
+.group7 {
+  position: absolute;
+  width: 26.1px;
+  height: 26.11px;
+  /*left: 85.29px;*/
+  top: 809.53px;
+}
+.icons {
+  text-align: center;
+}
+header {
+  position: absolute;
+  width: 620px;
+  height: 191.25px;
+  left: 236.32px;
+  top: 24px;
+}
+.progress {
+  position: absolute;
+  text-align: center;
+  width: 500px;
+  height: 80px;
+  left: 236px;
+  top: 239.34px;
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+/*.p {
+  position: absolute;
+  width: 500.26px;
+  height: 80px;
+  left: 236px;
+  top: 239.34px;
+  background: #f5f5f7;
+  border-radius: 14px;
+}*/
+.pin {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 8px;
+  top: 8px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.language {
+  position: absolute;
+  /*width: 80px;*/
+  height: 26px;
+  left: 100px;
+  /*top: 10px;
+  bottom: 1px;*/
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+.author {
+  position: absolute;
+  /*width: 135px;*/
+  height: 15px;
+  left: 100px;
+  top: 30px;
+  bottom: 1px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.ellipse {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 277px;
+  top: 22px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.percent {
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  left: 285px;
+  top: 17px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+}
+.btn {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  left: 357px;
+  top: 20px;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 8px;
+}
+.arrows {
+  position: absolute;
+  width: 96px;
+  height: 40px;
+  left: 524px;
+  top: 20px;
+}
+.courses-section {
+  position: absolute;
+  width: 620px;
+  height: 554.49px;
+  left: 236px;
+  top: 359.15px;
+}
+.courses {
+  position: absolute;
+  width: 89px;
+  height: 38px;
+  right: 531px;
+  top: 0px;
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 38px;
+  color: #000000;
+}
+.all {
+  position: absolute;
+  width: 82px;
+  height: 26px;
+  right: 538px;
+  top: 55px;
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.newest {
+  position: absolute;
+  width: 86px;
+  height: 26px;
+  left: 112px;
+  top: 55px;
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  opacity: 0.3;
+}
+.top {
+  position: absolute;
+  width: 73px;
+  height: 26px;
+  left: 230px;
+  top: 55px;
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  opacity: 0.3;
+}
+.popular {
+  position: absolute;
+  width: 97px;
+  height: 26px;
+  left: 335px;
+  top: 55px;
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  opacity: 0.3;
+}
+.figma {
+  position: absolute;
+  text-align: center;
+  width: 620px;
+  height: 80px;
+  left: 236px;
+  top: 450px;
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+.analog {
+  position: absolute;
+  text-align: center;
+  width: 620px;
+  height: 80px;
+  left: 236px;
+  top: 546px;
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+.instagram {
+  position: absolute;
+  text-align: center;
+  width: 620px;
+  height: 80px;
+  left: 236px;
+  top: 642px;
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+.drawing {
+  position: absolute;
+  text-align: center;
+  width: 620px;
+  height: 80px;
+  left: 236px;
+  top: 738px;
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+.photoshop {
+  position: absolute;
+  text-align: center;
+  width: 620px;
+  height: 80px;
+  left: 236px;
+  top: 834px;
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+.btn-view {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  right: 24px;
+  top: 20px;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 8px;
+}
+.time {
+  position: absolute;
+  left: 286px;
+  top: 33px;
+  bottom: 31px;
+}
+.how-time {
+  position: absolute;
+  left: 310px;
+  top: 33px;
+  bottom: 31px;
+}
+.fire {
+  position: absolute;
+  left: 406px;
+  top: 33px;
+  bottom: 31px;
+}
+.how-fire {
+  position: absolute;
+  left: 425px;
+  top: 33px;
+  bottom: 31px;
+}
